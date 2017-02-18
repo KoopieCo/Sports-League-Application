@@ -1,2 +1,2 @@
-# LWJGL-Game-Project
+# Sports League Application
 For University of Arkansas - Fayetteville Hackathon
