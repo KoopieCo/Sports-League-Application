@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="Sports_League_Application.BlankPage1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Sports_League_Application"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Loaded="Page_Loaded">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Unloaded="Grid_Unloaded">
+        <Button x:Name="Return_To_Main1" Content="Return To Main" HorizontalAlignment="Left" Margin="83,938,0,0" VerticalAlignment="Top" Height="49" Width="217" Click="Return_To_Main_Click"/>
+        <TextBlock x:Name="TitleBlock" HorizontalAlignment="Left" Margin="83,62,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="70" Width="467" FontSize="40"/>
+        <TextBlock x:Name="LeagueStyle" HorizontalAlignment="Left" Margin="83,200,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="50" Width="467" FontSize="40"/>
+        <TextBlock x:Name="LeagueStart" HorizontalAlignment="Left" Margin="83,320,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="50" Width="467" FontSize="40"/>
+        <TextBlock x:Name="LeagueEnd" HorizontalAlignment="Left" Margin="83,442,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="50" Width="467" FontSize="40"/>
+        <Button x:Name="RainBow_League" HorizontalAlignment="Left" Margin="1032,223,0,0" VerticalAlignment="Top" Height="65" Width="785" FontSize="30" Click="RainBow_League_Click" Loaded="RainBow_League_Loaded"/>
+        <TextBox x:Name="DescriptionBox" HorizontalAlignment="Left" Margin="83,564,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="160" Width="557"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="1146,412,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>

@@ -190,3 +190,8 @@ C:\Users\Yamez\Documents\Visual Studio 2015\Projects\Sports-League-Application\S
 C:\Users\Yamez\Documents\Visual Studio 2015\Projects\Sports-League-Application\Sports-League-Application\Sports-League-Application\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Users\Yamez\Documents\Visual Studio 2015\Projects\Sports-League-Application\Sports-League-Application\Sports-League-Application\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Yamez\Documents\Visual Studio 2015\Projects\Sports-League-Application\Sports-League-Application\Sports-League-Application\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\Yamez\Documents\Visual Studio 2015\Projects\Sports-League-Application\Sports-League-Application\Sports-League-Application\bin\x86\Debug\ExistingLeagues.xbf
+C:\Users\Yamez\Documents\Visual Studio 2015\Projects\Sports-League-Application\Sports-League-Application\Sports-League-Application\obj\x86\Debug\ExistingLeagues.g.i.cs
+C:\Users\Yamez\Documents\Visual Studio 2015\Projects\Sports-League-Application\Sports-League-Application\Sports-League-Application\obj\x86\Debug\ExistingLeagues.g.cs
+C:\Users\Yamez\Documents\Visual Studio 2015\Projects\Sports-League-Application\Sports-League-Application\Sports-League-Application\obj\x86\Debug\ExistingLeagues.xaml
+C:\Users\Yamez\Documents\Visual Studio 2015\Projects\Sports-League-Application\Sports-League-Application\Sports-League-Application\obj\x86\Debug\ExistingLeagues.xbf

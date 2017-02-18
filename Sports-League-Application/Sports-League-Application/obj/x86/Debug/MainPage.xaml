@@ -24,20 +24,24 @@
         <Popup/>
         <TextBlock x:ConnectionId='1' x:Name="League_Name_Box" HorizontalAlignment="Left" Margin="110,55,0,0" Grid.Row="3" TextWrapping="Wrap" Text="League Name:" VerticalAlignment="Top" FontSize="40" Width="300" Height="80"/>
         <TextBlock x:ConnectionId='2' x:Name="Title_Block" HorizontalAlignment="Left" Margin="742,45,0,0" Grid.RowSpan="2" TextWrapping="Wrap" Text="Sports League " VerticalAlignment="Top" Width="482" Height="95" Grid.ColumnSpan="2" FontSize="72"/>
-        <TextBlock x:ConnectionId='3' x:Name="textBlock" HorizontalAlignment="Left" Margin="110,167,0,0" Grid.Row="3" TextWrapping="Wrap" Text="League Time Span:" VerticalAlignment="Top" FontSize="40"/>
-        <TextBlock x:ConnectionId='4' x:Name="textBlock1" HorizontalAlignment="Left" Margin="110,301,0,0" Grid.Row="3" TextWrapping="Wrap" Text="League Style:" VerticalAlignment="Top" FontSize="40"/>
-        <TextBox x:ConnectionId='5' x:Name="textBox" HorizontalAlignment="Left" Margin="482,55,0,0" Grid.Row="3" TextWrapping="Wrap" Text="Team Name" VerticalAlignment="Top" Height="80" Width="256" FontSize="25"/>
+        <TextBlock x:ConnectionId='3' x:Name="League_Time_Span_Box" HorizontalAlignment="Left" Margin="110,167,0,0" Grid.Row="3" TextWrapping="Wrap" Text="League Time Span:" VerticalAlignment="Top" FontSize="40"/>
+        <TextBlock x:ConnectionId='4' x:Name="Leauge_Style_Block" HorizontalAlignment="Left" Margin="110,301,0,0" Grid.Row="3" TextWrapping="Wrap" Text="League Style:" VerticalAlignment="Top" FontSize="40"/>
+        <TextBox x:ConnectionId='5' x:Name="NameBox" HorizontalAlignment="Left" Margin="482,55,0,0" Grid.Row="3" TextWrapping="Wrap" Text="League Name" VerticalAlignment="Top" Height="80" Width="256" FontSize="25"/>
         <DatePicker x:ConnectionId='6' x:Name="Start_Time" HorizontalAlignment="Left" Margin="482,167,0,0" Grid.Row="3" VerticalAlignment="Top" Height="38" Width="214" RenderTransformOrigin="0.504,1.299" FontSize="20"/>
         <DatePicker x:ConnectionId='7' x:Name="End_Time" HorizontalAlignment="Left" Margin="482,250,0,0" Grid.Row="3" VerticalAlignment="Top" Height="38" Width="214" RenderTransformOrigin="0.504,1.299" FontSize="20"/>
         <TextBlock x:ConnectionId='8' x:Name="textBlock2" HorizontalAlignment="Left" Margin="482,205,0,0" Grid.Row="3" TextWrapping="Wrap" Text="To" VerticalAlignment="Top" FontSize="30"/>
         <ComboBox x:ConnectionId='9' x:Name="comboBox" HorizontalAlignment="Left" Margin="482,322,0,0" Grid.Row="3" VerticalAlignment="Top" Width="256">
-            <Button Content="Play Off" FontSize="20"/>
-            <Button Content="Round Robin" FontSize="20"/>
+            <ComboBoxItem Content="Play-Off" Height="100" Width="100"/>
+            <ComboBoxItem Content="Round Robin" Height="100" Width="100"/>
+
         </ComboBox>
-        <TextBlock x:ConnectionId='10' x:Name="textBlock3" HorizontalAlignment="Left" Margin="166,389,0,0" Grid.Row="3" TextWrapping="Wrap" Text="Error Box" VerticalAlignment="Top"/>
-        <Button x:ConnectionId='11' x:Name="button" Content="Add Team..." HorizontalAlignment="Left" Margin="565,761,0,0" Grid.Row="3" VerticalAlignment="Top" Width="173" FontSize="30"/>
-        <Button x:ConnectionId='12' x:Name="button1" Content="Create Your League..." HorizontalAlignment="Left" Margin="197,848,0,0" Grid.Row="3" VerticalAlignment="Top" Width="541" Height="54" FontSize="30"/>
-        <TextBlock x:ConnectionId='13' x:Name="textBlock4" Grid.Column="1" HorizontalAlignment="Left" Margin="330,12,0,0" Grid.Row="3" TextWrapping="Wrap" Text="Existing Leagues:" VerticalAlignment="Top" RenderTransformOrigin="0.355,-0.8" FontSize="40"/>
+        <TextBlock x:ConnectionId='10' x:Name="Error_Block" HorizontalAlignment="Left" Margin="166,389,0,0" Grid.Row="3" TextWrapping="Wrap" Text="Error Box" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='11' x:Name="Add_Team_Button" Content="Add Team..." HorizontalAlignment="Left" Margin="565,761,0,0" Grid.Row="3" VerticalAlignment="Top" Width="173" FontSize="30"/>
+        <Button x:ConnectionId='12' x:Name="Create_your_league_button" Content="Create Your League..." HorizontalAlignment="Left" Margin="197,848,0,0" Grid.Row="3" VerticalAlignment="Top" Width="541" Height="54" FontSize="30"                                        />
+        <TextBlock x:ConnectionId='13' x:Name="Existing_Leagues_Box" Grid.Column="1" HorizontalAlignment="Left" Margin="330,12,0,0" Grid.Row="3" TextWrapping="Wrap" Text="Existing Leagues:" VerticalAlignment="Top" RenderTransformOrigin="0.355,-0.8" FontSize="40"/>
+        <ListView x:ConnectionId='14' x:Name="LeagueList" Grid.Column="1" HorizontalAlignment="Left" Height="813" Margin="112,89,0,0" Grid.Row="3" VerticalAlignment="Top" Width="760"                                                                                                         >
+        </ListView>
+        <TextBlock x:ConnectionId='15' x:Name="debugLabel" HorizontalAlignment="Left" Margin="565,477,0,0" Grid.Row="3" TextWrapping="Wrap" Text="Debug:" VerticalAlignment="Top" Height="34" Width="336" FontSize="16"/>
 
     </Grid>
 </Page>

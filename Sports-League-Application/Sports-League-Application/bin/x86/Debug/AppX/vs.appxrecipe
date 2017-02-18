@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\Yamez\Documents\Visual Studio 2015\Projects\Sports-League-Application\Sports-League-Application\Sports-League-Application\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-02-18T05:32:50.804</Modified>
+      <Modified>2017-02-18T19:45:33.303</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Yamez\Documents\Visual Studio 2015\Projects\Sports-League-Application\Sports-League-Application\Sports-League-Application\bin\x86\Debug\Sports-League-Application.exe">
       <PackagePath>entrypoint\Sports-League-Application.exe</PackagePath>
-      <Modified>2017-02-18T05:32:49.608</Modified>
+      <Modified>2017-02-18T19:45:33.033</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Yamez\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -488,7 +488,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Yamez\Documents\Visual Studio 2015\Projects\Sports-League-Application\Sports-League-Application\Sports-League-Application\bin\x86\Debug\Sports-League-Application.xr.xml">
       <PackagePath>Sports-League-Application.xr.xml</PackagePath>
-      <Modified>2017-02-18T05:32:49.138</Modified>
+      <Modified>2017-02-18T19:27:29.498</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -497,11 +497,11 @@
     <AppxPackagedFile Include="C:\Users\Yamez\Documents\Visual Studio 2015\Projects\Sports-League-Application\Sports-League-Application\Sports-League-Application\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-02-18T05:32:50.503</Modified>
+      <Modified>2017-02-18T19:34:28.362</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Yamez\Documents\Visual Studio 2015\Projects\Sports-League-Application\Sports-League-Application\Sports-League-Application\bin\x86\Debug\Core\Sports-League-Application.exe">
       <PackagePath>Sports-League-Application.exe</PackagePath>
-      <Modified>2017-02-18T05:32:50.793</Modified>
+      <Modified>2017-02-18T19:45:33.295</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
